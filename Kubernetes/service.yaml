@@ -1,14 +1,17 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: prime-app
+  annotations:
+    argocd.argoproj.io/tracking-id: amazon-prime:/Service:default/prime-app
   labels:
     app: prime-app
+  name: prime-app
+  namespace: default
 spec:
-  type: NodePort
   ports:
-  - port: 3000
-    targetPort: 3000
-    nodePort: 30001
+    - nodePort: 30001
+      port: 3000
+      targetPort: 3000
   selector:
     app: prime-app
+  type: NodePort
