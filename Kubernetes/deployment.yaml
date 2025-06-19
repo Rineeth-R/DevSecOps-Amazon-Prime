@@ -1,12 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
-    argocd.argoproj.io/tracking-id: amazon-prime:apps/Deployment:default/prime-app
+  name: prime-app
   labels:
     app: prime-app
-  name: prime-app
-  namespace: default
 spec:
   replicas: 2
   selector:
@@ -18,7 +15,7 @@ spec:
         app: prime-app
     spec:
       containers:
-        - image: rineeth05/amazon-prime:latest
-          name: prime-app
-          ports:
-            - containerPort: 3000
+      - name: prime-app
+        image: rineeth05/amazon-prime:latest
+        ports:
+        - containerPort: 3000
