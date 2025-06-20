@@ -58,22 +58,24 @@
 
 
 **Technical Stack & Tools**
-Cloud Platforms: AWS (EC2, EKS)
-CI/CD: Jenkins, Git, GitHub
-Containerization: Docker, DockerHub, Kubernetes
-Continuous Delivery: Argo CD
-Security Tools: SonarQube, OWASP Dependency-Check, Trivy, Docker Scout
-Programming & Scripting: Shell Scripting, JavaScript (Node.js application)
-Build Tools: NPM
-Runtime Environment: JDK 17, Node.js 16
+- Cloud Platforms: AWS (EC2, EKS)
+- CI/CD: Jenkins, Git, GitHub
+- Containerization: Docker, DockerHub, Kubernetes
+- Continuous Delivery: Argo CD
+- Security Tools: SonarQube, OWASP Dependency-Check, Trivy, Docker Scout
+- Programming & Scripting: Shell Scripting, JavaScript (Node.js application)
+- Build Tools: NPM
+- Runtime Environment: JDK 17, Node.js 16
 
 **JENKINS STAGES**:-
 
 ![Screenshot 2025-06-20 021751](https://github.com/user-attachments/assets/15af1557-0d7d-4efb-aa19-0f66e4afe51b)
 
+
 **SONARQUBE PASSED:-**
 
 ![Screenshot 2025-06-20 021858](https://github.com/user-attachments/assets/c0e730a6-2f2d-4402-8932-ae909e53a783)
+
 
 **ARGOCD:-**
 
@@ -81,9 +83,11 @@ Runtime Environment: JDK 17, Node.js 16
 
 ![Screenshot 2025-06-20 122857](https://github.com/user-attachments/assets/870d65c1-d609-4e97-a18c-9ee5f32114d5)
 
+
 **PROMETHEUS:-**
 
 ![Screenshot 2025-06-20 104833](https://github.com/user-attachments/assets/cda9b148-ad61-4617-acde-46d2780a1506)
+
 
 **GRAFANA:-**
 
