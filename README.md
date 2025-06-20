@@ -22,13 +22,21 @@
 **3. Automated CI/CD Pipeline Orchestration (Jenkins)**
 - Installed and configured Jenkins on the AWS EC2 instance.
 - Developed a declarative Jenkins Pipeline script (Jenkinsfile) to automate the end-to-end DevSecOps workflow, including:
+
    -> Code Checkout: Retrieving source code from GitHub.
+
    -> SonarQube Analysis: Performing static code analysis and enforcing quality gates.
+
    -> OWASP Dependency Check: Scanning for vulnerable dependencies.
+
    -> Trivy Scan: Performing security scans on files.
+
    -> Docker Build & Push: Building the Docker image and pushing it to Docker Hub.
+  
    -> Docker Scout: Scanning the Docker image for vulnerabilities.
+  
    -> Kubernetes Deployment: Deploying the application to the EKS cluster.
+  
 - Configured Jenkins with necessary tools like JDK 17, Node.js 16, and Docker.
 - Established secure authentication to Docker Hub and SonarQube server using Jenkins credentials.
 
