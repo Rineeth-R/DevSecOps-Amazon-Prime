@@ -1,5 +1,3 @@
-![Screenshot 2025-06-20 021622](https://github.com/user-attachments/assets/b21d6fc7-4499-4283-b9ea-8a49b3204bb8)
-
 **Automated Deployment of Amazon Prime Video Clone on AWS EKS via DevSecOps implementation**
 
 ![Screenshot 2025-06-20 105044](https://github.com/user-attachments/assets/2b0bce67-e47e-478c-8f48-9357a007a97e)
